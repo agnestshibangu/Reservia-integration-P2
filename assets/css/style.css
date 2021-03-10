@@ -345,7 +345,7 @@ ul {
 display: flex;
 align-items: center;
 justify-content: space-between;
-width: 334px;
+width: 100%;
 margin: 49px auto 26px auto;
 
 }
@@ -368,7 +368,7 @@ margin: 49px auto 26px auto;
 
 .aside__card {
     background-color: white;
-    width: 343px;
+    width: 100%;
     height: 145px;
     border-radius: 8%;
     margin-bottom: 32px;
@@ -376,7 +376,7 @@ margin: 49px auto 26px auto;
 }
 
 .aside__cards-group{
-    width: 343px;
+    
     margin: 0 auto;
     margin: auto 38px;
 }
