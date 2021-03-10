@@ -601,6 +601,7 @@ footer {
 .main {
     display:  flex;
     flex-direction: column; 
+    height: fit-content;
     
 }
 
@@ -760,32 +761,6 @@ footer {
 
 
 
-@media (max-width: 1204px){
-    .main {
-        display: flex;
-        flex-direction: column; 
-        height: fit-content;
-        
-    }
-
-    .populaires {
-        order: 0;
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .hebergements {
-        order: 1;
-        width: 100%;
-        margin-top: 85px;
-        margin-left: 0;
-        height: fit-content;
-    }
-
-    .header {
-        height: auto; 
-    }
-
 
 
 
@@ -856,38 +831,295 @@ footer {
 
 
 
+    @media (max-width: 560px) {
 
+    
 
-
-
-
-
-
-
-
-
-
-
-
-
-    .populaires {
-        order: 0;
-        width: 100%;
-        margin-left: 0;
+        .header {
+            height: 149px;
+            }
+    
+        .box:hover {
+            height: 42px ;
+            width: 162px ;
+            border-top: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-left: none;
+            border-right: none;
+            border-bottom: 2px solid #0065FC;
+            transition: none;
+        }
+    
+    
+        .main {
+            display: flex;
+            flex-direction: column; 
+        }
+            
+        body {
+            background-color:white;
+             width: auto;
+        
+            }
+    
+        
+            .page_title {
+                height: fit-content;
+            }
+    
+        .logo {
+            order: 0;
+            padding-top:  30px;
+            margin-bottom: 40px;
+        }
+    
+        
+        .search_city {
+            height: fit-content;
+        }
+    
+        
+        
+    
+        .link-head {
+    
+        }
+    
+        a:hover {
+        
+    border-top-style: solid;
+        
+    border-color: #0065FC;
+        
+    padding-top: 35px;
+        
+    width: 50%;
+        
+    color: #0065FC;
     }
-
-    .hebergements {
-        order: 1;
-        width: 100%;
-        margin-left: 0;
+    
+        #link-top {
+            order: 2;
+            width: 100%;
+            padding-top: 0;
+            text-align: center;
+            /* display: flex; */
+            /* justify-content: center; */
+        }
+    
+        .maintitle {
+            margin-top: 35px;
+        }
+    
+        #inscription-btn {
+            order: 1;
+            float: right;
+            padding-top: 43px;
+            padding-right: 22px;
+        }
+    
+        .nav__btn {
+        display:  none;
+        }
+    
+        .nav__btn--disabled {
+            height: 52px;
+            width: 50px;
+        }
+    
+        .nav__btn_phone {
+            height: 52px;
+            width: 52px;
+            visibility: visible;
+            background-color: #0065FC;
+            color: white; 
+            border-radius: 10px;
+            border: none;
+        }
+        
+        .container__filtres-col {
+            padding-top: 5px;
+            padding-bottom: 0;
+        }
+    
+        
+        .box {
+            height: 50px;
+        }
+    
+    
+        
+        .filters-box {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        
+        .filters {
+            height: fit-content;
+        }
+    
+    
+    
+        .grey-description {
+            padding-top: 28px;
+            margin-bottom: 0;
+        }
+    
+        .container__filtres {
+        }
+    
+        .filterbtn {
+            padding: 0;
+            padding-top: 13px;
+            margin-left: 11px;
+        }
+    
+        .main {
+            display: flex;
+            flex-direction: column;
+    
+        }
+    
+        .card-img-aside {
+          width: 97%;
+    
+        }
+    
+        .card-img-activités {
+            height: 135px;
+        }
+    
+        #card-img-activités1 {
+            height: 133px;
+        }
+    
+        #card-img-activités2 {
+            height: 133px;
+        }
+    
+        #card-img-activités3 {
+            height: 133px;
+        }
+    
+        .aside__card {
+            width: 102%;
+            border-radius: 10px;
+        }
+        
+        .aside {
+            order: 0;
+            margin:  0;
+            height:  800px;
+        }
+        
+        .container__main {
+            background-color: white;
+            order: 1;
+        }
+        
+        
+        
+        .inside-inside {
+            display: flex; 
+            flex-direction: column;
+        }
+        
+        .activities-section {
+            padding-top: 20px;
+        }
+    
+        .card-img-activités {
+            width: 335px;
+            height: 133px;
+            dius: 10px 10px 0 0;
+        }
+        
+        .activities-section__grid{
+            flex-direction: column;
+            display: grid;
+        }
+        
+        .grid-item {
+            height: 190px;
+            width: 334px;
+            margin-bottom: 11px;
+        }
+        
+        .aside__cards-group {
+            gap: 11px;
+            display: grid;
+            margin: 0 auto;
+        }
+        
+        .card {
+          width: 100%;
+          margin-bottom: 11px;
+        }
+    
+        .card-activity-title {
+            width: 334px;
+            height: 58px;
+        }
+    
+        .divided_img {
+            width: 335px;
+        }
+        
+        .footer-content {
+        flex-direction: column;
+        margin: 0 auto;
+        padding-left: 28px;
+        }
+        
+        footer {
+            height: 485px;
+        }
+     
+        .blo {
+        line-height: 2em;
+        }
+    
+        .footer-title {
+        margin-top: 50px;
+        }
+    
+        
+        .populaires {
+            order: 0;
+            width: 100%;
+            margin-left: 0;
+        }
+    
+        .hebergements {
+            order: 1;
+            width: 100%;
+            margin-left: 0;
+        }
+    
+        .nav__btn {
+            display: none;
+        }
+    
+    
     }
-
-    .nav__btn {
-        display: none;
-    }
+    
+    
 
 
-}
+
+
+
+
+
+
+
+
+
+
 
 
 
