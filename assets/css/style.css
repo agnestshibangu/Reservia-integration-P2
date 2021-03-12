@@ -715,7 +715,16 @@ footer {
 
     .filterbtn {
         padding-top: 20px;
+        padding-right: 24px;
+        padding-left: 0;
     }
+
+
+    .filters-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
 
     .grey-description {
         padding-top: 0px;
@@ -723,6 +732,7 @@ footer {
 
     .container__filtres-col {
     height:  fit-content;
+    padding-top: 5px;
     }
 
     .aside__top {
@@ -1064,7 +1074,7 @@ footer {
     .filterbtn {
         padding: 0;
         padding-top: 13px;
-        margin-left: 11px;
+        margin-right: 11px;
     }
 
     .main {
