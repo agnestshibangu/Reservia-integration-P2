@@ -428,7 +428,7 @@ margin: 49px auto 26px auto;
     width: 60%;
 }
 
-/* activités */
+/* activités ------------------------------*/
 
 .activites {
     width: 100%;
@@ -446,35 +446,50 @@ margin: 49px auto 26px auto;
 
 .activities-section__grid {
     display: grid;
-    width: 100%;
-    grid-template-areas: "A B D E"
-                         "A C D F";
-    }
-
-    .A {
-        grid-area: A;
-    }
-
-    .B {
-        grid-area: B;
-    }
-
-    .C {
-        grid-area: C;
-    }
-
-    .D {
-        grid-area: D;
-    }
-
-    .E {
-        grid-area: E;
-    }
-
-    .F {
-        grid-area: F;
-    }
+    grid-template-areas: " A B D E "
+                         " A C D F ";
+    grid-gap: 22px;
 }
+
+.A{
+    grid-area: A;
+}
+
+
+.B{
+    grid-area: B;
+}
+
+
+.C{
+    grid-area: C;
+}
+
+
+.D{
+    grid-area: D;
+}
+
+
+.E{
+    grid-area: E;
+}
+
+
+.F{
+    grid-area: F;
+}
+
+
+.grid-item {
+    width: 100%;
+    height: 190px;
+    background-color: red;
+    
+}
+
+
+/* ------------------------------------------ */
 
 #title3 {
   padding-bottom: 28px;
@@ -522,7 +537,7 @@ footer {
 }
 
 
-
+/* --------------------------------------------------- */
 
 
 
@@ -725,13 +740,54 @@ footer {
 
     /* section activités */
 
-    .activities-section__grid {
+    /* .activities-section__grid {
         display: grid; 
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 22px;
         
-    }
+    } */
 
+    
+    
+.activities-section__grid {
+    display: grid;
+    grid-gap: 22px; 
+    grid-template-areas: "A B"
+                         "C D"
+                         "E F";
+}
+
+.A{
+    grid-area: A;
+}
+
+
+.B{
+    grid-area: B;
+}
+
+
+.C{
+    grid-area: C;
+}
+
+
+.D{
+    grid-area: D;
+}
+
+
+.E{
+    grid-area: E;
+}
+
+
+.F{
+    grid-area: F;
+}
+
+
+   
     .grid-item {
         width: 100%;
         height: 190px;
@@ -991,6 +1047,51 @@ footer {
         grid-gap: 22px;
         
     }
+
+    
+.activities-section__grid {
+    display: grid;
+    grid-gap: 22px;
+    grid-template-areas: " A "
+                         " B "
+                         " C "
+                         " D "
+                         " E "
+                         " F ";
+    
+}
+
+.A{
+    grid-area: A;
+}
+
+
+.B{
+    grid-area: B;
+}
+
+
+.C{
+    grid-area: C;
+}
+
+
+.D{
+    grid-area: D;
+}
+
+
+.E{
+    grid-area: E;
+}
+
+
+.F{
+    grid-area: F;
+}
+
+
+
 
     .grid-item {
         width: 100%;
