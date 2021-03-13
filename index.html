@@ -34,11 +34,11 @@
 
                     
                             <div class="item1 box">
-                            <a class="" href="#"><b>Hébergements</b></a>
+                            <a class="" href="#hébergements"><b>Hébergements</b></a>
                             </div>
 
                             <div class="item2 box">
-                            <a  class="" href="#"><b>Activités</b></a>
+                            <a  class="" href="#activités"><b>Activités</b></a>
                             </div>
                        
                               
@@ -144,7 +144,7 @@
 
              
  
-                <div class="hebergements" style=" border: 1px solid purple;">
+                <div class="hebergements" id="hébergements" style=" border: 1px solid purple;">
 
                     <div class="inside">
 
@@ -246,21 +246,21 @@
                 <div class="populaires" style=" border: 1px solid purple;">
                     
 
-            
+                
+                    <span class="aside__top">
+                        <h3 class="aside__title"><b>Les plus populaires</b></h3>
+                        <i class="fas fa-chart-line"></i>
+                        </span>
 
 
                 <div class="aside__cards-group">
 
-                    
-                <span class="aside__top">
-                    <h3 class="aside__title"><b>Les plus populaires</b></h3>
-                    <i class="fas fa-chart-line"></i>
-                    </span>
+                
                 
                 <!-- CARTE 1-->
 
                 <a href="#">
-                    <div class="aside__card" >
+                    <div class="aside__card" id="aside__card-item1" >
                     <img src="assets/images/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" class="card-img-aside" alt="...">
                     <div class="aside__card-body">
                         <div class="card-title">Auberge la Cannebière</div>
@@ -273,7 +273,7 @@
                 <!-- CARTE 2-->
 
                 <a href="#">
-                    <div class="aside__card" >
+                    <div class="aside__card" id="aside__card-item2" >
                     <img src="assets/images/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" class="card-img-aside" alt="...">
                     <div class="aside__card-body">
                         <span class="card-title">Auberge la Cannebière</span>
@@ -287,7 +287,7 @@
                 <!-- CARTE 3-->
 
                 <a href="#">
-                    <div class="aside__card" >
+                    <div class="aside__card" id="aside__card-item3" >
                     <img src="assets/images/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="card-img-aside" id="card-img-aside3" alt="...">
                     <div class="aside__card-body">
                         <span class="card-title">Auberge la Cannebière</span>
@@ -321,7 +321,7 @@
 
             <!-- Début Activités -->
 
-            <div class="activites" style="border: 1px solid palevioletred;">
+            <div class="activites" id="activités" style="border: 1px solid palevioletred;">
                 
 
  
@@ -335,96 +335,79 @@
 
              <!--grid item 1 -->
 
-            <a href="#">
-                <div class="grid-item" class="activité1">
-                    <img src="assets/images/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="card-img-activités" id="card-img-activités1" alt=""  >
-                    <div class="card-activity-title">
-                        <h4 class="inner"><b>Parc National des Calanques</b></h4>
-                    </div>
-                </div>
-            </a>
-            
-             <!--grid splited item 2 -->
-                    <div class="grid-itemdivided" class="activité1" >
-                       
-               
-                    <a href="#">
-                        <div class="grid-item div-1">
-                            <img src="assets/images/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="card-img-activités"  id="card-img-activités2"  alt=""  >
-                            <div class="divided_img divided--1-1">
-                            <div class="card-activity-title">
-                                <h4  class="inner"><b>Fort de Pomègues</b></h4>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-
-
-
-                <a href="#">
-                    <div class="grid-item div-2">
-                       <img src="assets/images/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" class="card-img-activités"  id="card-img-activités3" alt=""  >
-                        <div class="divided_img divided--1-2">
-                           <div class="card-activity-title">
-                                <h4  class="inner"><b>Iles du Frioul</b></h4>
-                            </div>
-                        </div> 
-                         </div>
-                      </div>
-                </a>
- 
-                
-        
-
-            <!--grid item 3 -->
-            
-            <a href="#">
+            <a href="#" class="A">
                 <div class="grid-item">
-                    <img src="assets/images/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" class="card-img-activités"  id="card-img-activités1" alt=""  >
-                    <div class="card-activity-title">
-                        <h4  class="inner"><b>Parc National des Calanques</b></h4>
+                    <!-- <img src="assets/images/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="card-img-activités" id="card-img-activités1" alt=""  > -->
+                    <div class="">
+                        <h4 class=""><b>Parc National des Calanques</b></h4>
                     </div>
                 </div>
             </a>
+            
+            
+             <!--grid item 2 -->
 
-            <!--grid splited item 4 -->
+            
 
-                    <div class="grid-itemdivided" >
-
-                        
-                    <a href="#">
-                                <div class="grid-item div-3" >
-                                    
-                                        <img src="assets/images/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="card-img-activités"  id="card-img-activités4"  alt=""  >
-                                        
-                                        <div class="divided_img divided--1-1">
-                                                <div class="card-activity-title">
-                                                    <h4  class="inner"><b>Fort de Pomègues</b></h4>
-                                                </div>
-                                        </div>
-                                </div>
-                    </a>
-
-                                       
-
-
-                        
-                    <a href="#">
-                                <div class="grid-item div-4" >
-                                    
-                                
-                                    <img src="assets/images/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" class="card-img-activités"  id="card-img-activités5" alt=""  >
-                                        <div class="divided_img divided--1-3">
-                                            <div class="card-activity-title">
-                                                <h4  class="inner"><b>Iles du Frioul</b></h4>
-                                            </div>
-                                        </div> 
-                                </div>
-                    </a>
-
-
+             <a href="#"  class="B" >
+                <div class="grid-item">
+                    <!-- <img src="assets/images/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="card-img-activités" id="card-img-activités1" alt=""  > -->
+                    <div class="">
+                        <h4 class=""><b>Parc National des Calanques</b></h4>
                     </div>
+                </div>
+            </a>
+            
+            
+             <!--grid item 3 -->
+
+             <a href="#"  class="C" >
+                <div class="grid-item">
+                    <!-- <img src="assets/images/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="card-img-activités" id="card-img-activités1" alt=""  > -->
+                    <div class="">
+                        <h4 class=""><b>Parc National des Calanques</b></h4>
+                    </div>
+                </div>
+            </a>
+            
+        
+            
+             <!--grid item 4 -->
+
+             <a href="#"  class="D" >
+                <div class="grid-item">
+                    <!-- <img src="assets/images/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="card-img-activités" id="card-img-activités1" alt=""  > -->
+                    <div class="">
+                        <h4 class=""><b>Parc National des Calanques</b></h4>
+                    </div>
+                </div>
+            </a>
+            
+            
+             <!--grid item 5 -->
+
+             <a href="#"  class="E" >
+                <div class="grid-item">
+                    <!-- <img src="assets/images/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="card-img-activités" id="card-img-activités1" alt=""  > -->
+                    <div class="">
+                        <h4 class=""><b>Parc National des Calanques</b></h4>
+                    </div>
+                </div>
+            </a>
+            
+            
+             <!--grid item 6 -->
+
+             <a href="#"  class="F" >
+                <div class="grid-item">
+                    <!-- <img src="assets/images/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="card-img-activités" id="card-img-activités1" alt=""  > -->
+                    <div class="">
+                        <h4 class=""><b>Parc National des Calanques</b></h4>
+                    </div>
+                </div>
+            </a>
+            
+            
             
                 </div>
             
