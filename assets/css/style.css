@@ -423,7 +423,9 @@ margin: 49px auto 26px auto;
     padding-top: 15px;
 }
 
-star-rating
+.star-rating {
+    padding-top: 24px;
+}
 
 .card-img-aside {
     width: 40%;
@@ -441,13 +443,13 @@ star-rating
 
 .aside__card-body {
     width: 225px;
-    padding-top: 19px;
+    padding-top: 16px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     height: fit-content;
     display: flex;
-    padding-left: 21px;
+    padding-left: 16px;
 }
 
 #card-img-aside3 {
@@ -758,6 +760,11 @@ footer {
         grid-template-columns: repeat(2, 50%);
     }
 
+    .star-rating {
+        padding-top: 13px;
+    }
+
+
     #aside__card-item1, #aside__card-item2, #aside__card-item3 {
         margin: 0 auto;
     }
@@ -765,6 +772,7 @@ footer {
     .aside__card-body {
         padding-left: 11px;
         padding-top: 5px;
+        width: 290px;
     }
 
     .card-img-aside {
