@@ -321,9 +321,7 @@ ul {
         font-size: 1em;
     }
 
-    .card-text {
-
-    }
+    
 
 .card-img-top {
     width: 96%;
@@ -442,7 +440,7 @@ margin: 49px auto 26px auto;
 }
 
 .aside__card-body {
-    width: 225px;
+    width: 180px;
     padding-top: 16px;
     display: flex;
     flex-direction: column;
@@ -465,49 +463,48 @@ margin: 49px auto 26px auto;
 
 }
 
-.activities-section {
-    padding-top: 0;
-    width: 100%;
-    margin: 0 auto;
 
-}
 
 .activities-section__grid {
     display: grid;
-    grid-column-gap: 40px;
-    grid-template-areas: " A B D E "
-                         " A C D F ";
+    grid-column-gap:40px;
+    
 }
 
-.A{
-    grid-area: A;
+A{
+    grid-column: 1/2;
+    grid-row: 1/11;
 }
+
 
 
 .B{
-    grid-area: B;
+    grid-column: 2/3;
+    grid-row: 1/11;
 }
 
 
 .C{
-    grid-area: C;
-    margin-top: 40px;
+    grid-area: 1/2;
+    grid-row: 6/11;
+    
 }
 
 
 .D{
-    grid-area: D;
+    grid-column: 3/4;
 }
 
 
 .E{
-    grid-area: E;
+    grid-column: 4/5;
 }
 
 
 .F{
-    grid-area: F;
-    margin-top: -4px;
+    grid-column: 4/5;
+    grid-row: 5/11;
+   
 }
 
 
@@ -833,41 +830,48 @@ footer {
 
 .activities-section__grid {
     display: grid;
-    grid-gap: 40px;
-    grid-template-areas: " A B "
-                         " C D "
-                         " E F ";
-}
+    grid-row-gap: 40px;
+   
+} 
 
 .A{
-    grid-area: A;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
 }
 
 
 .B{
-    grid-area: B;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    
 }
 
 
 .C{
-    grid-area: C;
+    grid-column: 1/2;
+    grid-row: 2/3;
     margin-top: 0;
     
 }
 
 
 .D{
-    grid-area: D;
+    grid-column: 2/2;
+    grid-row: 2/3;
 }
 
 
 .E{
-    grid-area: E;
+    grid-column: 1/2;
+    grid-row: 3/4;
 }
 
 
 .F{
-    grid-area: F;
+    grid-column: 2/2;
+    grid-row: 3/4;
+
     
 }
 
@@ -1184,7 +1188,7 @@ height: 190px;
 
     /* activités section */
 
-    
+/*     
 
 .activities-section__grid {
     display: grid;
@@ -1195,37 +1199,47 @@ height: 190px;
                          " D "
                          " E "
                          " F ";
-}
+} */
 
 .A{
-    grid-area: A;
-}
-
-
-.B{
-    grid-area: B;
-}
-
-
-.C{
-    grid-area: C;
-    margin-top: 0;
+    grid-column: 1/2;
+    grid-row: 1/2;
     
 }
 
 
+.B{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    
+}
+
+
+.C{
+    grid-column: 1/2;
+    grid-row: 3/4;
+
+}
+
+
 .D{
-    grid-area: D;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    
 }
 
 
 .E{
-    grid-area: E;
+    grid-column: 1/2;
+    grid-row: 5/6; 
+    
 }
 
 
 .F{
-    grid-area: F;
+    grid-column: 1/2;
+    grid-row: 6/7;
+    
     
 }
 
