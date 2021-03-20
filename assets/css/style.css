@@ -616,6 +616,54 @@ footer {
 
 /* --------------------------------------------------- */
 
+@media (max-width: 1204px){
+
+    .card-img-top {
+        width: 94%;
+    }
+
+    .card-title {
+        font-weight: bold;
+        font-size: 0.9em;
+    }
+
+    .card-text-aside {
+        padding-top: 5px;
+        font-size: 0.9em;
+    }
+
+    .star-rating {
+        padding-top: 10px;
+    }
+    
+    .aside__card-body {
+        width: 120px;
+        padding-left: 10px;
+    }
+
+    .card-body {
+        padding-left: 10px;
+        line-height: 20px;
+    }
+
+    .card-text {
+        font-size: 0.9em;
+    }
+
+    .card {
+        width: 104%;
+        height: 220px;
+    }
+
+}
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 991px){
@@ -810,8 +858,8 @@ footer {
 
 
     .card-img-top {
-        width: 94%;
-        margin: 5px;
+        width: 95%;
+        margin: 6px;
     }
 
     .container__main {
