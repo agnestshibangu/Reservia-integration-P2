@@ -467,8 +467,9 @@ margin: 49px auto 26px auto;
 
 .activities-section__grid {
     display: grid;
-    grid-column-gap:40px;
-    
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
 }
 
 A{
