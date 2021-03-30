@@ -35,11 +35,11 @@
 
                     
                         <div class="item1 box">
-                            <a class="" href="#hébergements">Hébergements</a>
+                            <a class="nav-item" href="#hébergements">Hébergements</a>
                         </div>
 
                         <div class="item2 box">
-                            <a  class="" href="#activités">Activités</a>
+                            <a  class="nav-item" href="#activités">Activités</a>
                         </div>
                 
                               
@@ -76,8 +76,8 @@
                 
                 <span class="search-bar">
                     <div class="grey-button"> <i class="fas fa-map-marker-alt"></i></div>
-                    <input class="bar" type="text" placeholder=" Marseille, France" style="font-weight: bolder; font-size: 16px;"></input>
-                    <button  class="nav__btn" type="button" href="#">Rechercher</button>
+                    <input class="bar" type="text" placeholder=" Marseille, France" style="font-weight: 800; font-size: 18px;"></input>
+                    <button  class="nav__btn" type="button" href="#"><b style="font-weight: 400; font-size: 18px;">Rechercher</b></button>
                     <button  class="nav__btn_phone" type="button" href="#"><i class="fas fa-search"></i></button>
                 </span>
 
@@ -100,28 +100,28 @@
 
                         <div class="filterbtn">
                             <button type="button" class="filtres__conteneur" href="#">
-                                <div class="element"><i class="fas fa-money-bill-wave"></i></div> 
+                                <div class="element"><i class="fas fas-size fa-money-bill-wave"></i></div> 
                                 <span class="button__type-filter"><b>Economique</b></span>
                             </button>
                         </div>
                         
                         <div class="filterbtn">
                             <button type="button" class="filtres__conteneur" href="#">
-                                <div class="element"><i class="fas fa-child"></i></div>
+                                <div class="element"><i class="fas fas-size fa-child"></i></div>
                                 <span class="button__type-filter" ><b>Familial</b></span>
                             </button>
                         </div>    
                         
                         <div class="filterbtn">
                             <button type="button" class="filtres__conteneur" href="#">
-                                <div class="element"><i class="fas fa-heart"></i></div>
+                                <div class="element"><i class="fas fas-size fa-heart"></i></div>
                                 <span class="button__type-filter"><b>Romantique</b></span>
                             </button>
                         </div>    
                         
                         <div class="filterbtn">    
                             <button type="button" class="filtres__conteneur" href="#">
-                                <div class="element"><i class="fas fa-dog"></i></div>
+                                <div class="element"><i class="fas fas-size fa-dog"></i></div>
                                 <span class="button__type-filter"><b>Animaux autorisés</b></span>
                             </button>
                         </div>
@@ -131,7 +131,12 @@
                 </span>
 
         
-                <p class="grey-description"><i class="fas fa-info-circle"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+                <div class="grey-description">
+                    <div class="icon-flex">
+                        <div class="icon-wrapper"><i class="fas fa-info-circle"></i></div>
+                    </div>
+                    <p id="nb-logements">Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
            
             </section>
 
@@ -501,6 +506,7 @@
                         <h4 class="footer-title">A propos</h4>
                         <ul class="list">
                             <li>Fonctionnement du site</li>
+                            <li>Conditions générales de vente</li>
                             <li>Données et confidetialité</li>
                             
                         </ul>

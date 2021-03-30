@@ -87,6 +87,14 @@ a.inscription-btn {
     text-decoration: none;
 }
 
+.nav-item {
+    font-weight: 500;
+}
+
+.nav-item:hover {
+    color: #0065FC;
+}
+
 ::placeholder { 
     color: black;
     opacity: 1;
@@ -165,9 +173,9 @@ ul {
 
 .nav__btn {
     background-color:#0065FC;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 15px 15px 0px;
     height: 51px;
-    width: 135px;
+    width: 134px;
     color: white;
     border: none;
     font-size: 15px;
@@ -188,13 +196,13 @@ ul {
 .filters-box {
     display: flex;
     flex-direction: row;
-    align-items: center;
+   
 }
 
 .container__filtres-col {
     display: flex;
     flex-wrap: wrap;
-    padding-top:  32px;
+    
     padding-bottom: 41px;
 
 }
@@ -210,16 +218,19 @@ ul {
 
 .container__text-col {
     padding-right: 0px;
+    padding-top: 23px;
+    font-size: 18px;
+    font-weight: 900;
     display: flex;
     flex-direction: row;
 
 }
 
 .filtres__conteneur {
-    border-radius: 20px 20px 20px 20px;
-    border: 1px solid rgb(175 175 175);
+    border-radius: 30px;
+    border: 1px solid rgb(193 190 190);
     background: white;
-    height: 40px;
+    height: 50px;
     font-size: 15px;
     padding: 0px 0px;
     display: flex;
@@ -229,13 +240,14 @@ ul {
 
 .fa-heart, .fa-dog, .fa-money-bill-wave, .fa-child {
     color:#0065FC;
+    font-size: 19px;
 }
 
 .element {
 
     background-color: rgb(235, 234, 234);;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -252,6 +264,8 @@ ul {
     align-items: center;
     width: fit-content;
     padding: 0 15px;
+    font-size: 18px;
+    font-weight: 900;
 }
 
 .fa-info-circle {
@@ -262,8 +276,25 @@ ul {
     border: 3px rgb(184, 184, 184);
 }
 
+
 .filters {
     margin-bottom: 40px;
+}
+
+.grey-description {
+    display:flex;
+    flex-direction: row;
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #d2d2d2;
+    width: 15px;
+    height: 15px;
 }
 
 .main {
@@ -295,18 +326,19 @@ ul {
 
     .inside-inside {
     display: grid;
-    grid-template-columns: repeat(3, 30%);
-    grid-gap: 5%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10%;
     grid-column-gap: 4%;
     margin: 0 auto;
     width: 100%;
+    height: 430px;
     }
 
     .card {
         width: 100%;
-        height: 200px;
+        height: 104%;
         background-color: white;
-        border-radius: 15px;
+        border-radius: 20px;
         box-shadow: 1px 6px 24px #dadada;
     }
     .card-body {
@@ -317,9 +349,10 @@ ul {
     }
 
     .card-title {
-        font-weight: bold;
+        font-weight: 800;
         font-size: 1em;
     }
+
 
     
 
@@ -327,14 +360,18 @@ ul {
     width: 96%;
     height: 114px;
     margin: 5px 5px 0px 5px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
 
 
+   
 
     .fa-star {
         color: #0065FC;
+        font-size: 12px;
+        margin-left: -2px;
+
     }
 
     .fa-star--grey {
@@ -355,6 +392,9 @@ ul {
         padding-left: 40px;
     }
 
+    #nb-logements {
+        margin-left: 12px;
+    }
 
 /* populaire */
 
@@ -394,7 +434,7 @@ margin: 49px auto 26px auto;
 .fa-chart-line {
     /* padding-right: 40px; */
     display: flex;
-    width: 22px;
+    font-size: 22px;
     height: 18px;
 }
 
@@ -410,7 +450,7 @@ margin: 49px auto 26px auto;
 .aside__card {
     background-color: white;
     width: 100%;
-    height: 145px;
+    height: 23%;
     border-radius: 8%;
     margin-bottom: 32px;
     display:  flex;
@@ -418,11 +458,12 @@ margin: 49px auto 26px auto;
 }
 
 .card-text-aside {
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .star-rating {
-    padding-top: 24px;
+    padding-top: 30px;
+
 }
 
 .card-img-aside {
@@ -540,6 +581,7 @@ A{
 .card-img-activités {
     width: 100%;
     object-fit: cover;
+    border-radius: 20px 20px 0 0;
 }
 
 
@@ -593,14 +635,9 @@ footer {
 }
 
 .footer-content {
-    margin-top: 55px;
-    margin-bottom: 50px;
-    width: 100%;
-    padding-left: 66px;
+    margin-top: 50px;
+    margin-left: 50px;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    justify-content: space-around;
 }
 
 .list {
@@ -608,12 +645,20 @@ footer {
     padding-left: 0;
 }
 
+li {
+    line-height: 35px;
+}
+
 .blo {
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-right: 16.3%;
 }
 
+.footer-title {
+    margin-bottom: 13px;
+}
 
 /* --------------------------------------------------- */
 
@@ -639,11 +684,14 @@ footer {
     
     .aside__card-body {
         width: 120px;
-        padding-left: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
+
     }
 
     .card-body {
-        padding-left: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
         line-height: 20px;
     }
 
@@ -653,7 +701,7 @@ footer {
 
     .card {
         width: 104%;
-        height: 220px;
+        height: 104%;
     }
 
 }
@@ -691,6 +739,7 @@ footer {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 50%);
+        margin-bottom: 40px;
     }
 
 
@@ -841,6 +890,7 @@ footer {
         width: 96%;
         height: 50%;
         border-radius: 10px 10px 0 0;
+        margin: 7px auto;
     }
 
     
