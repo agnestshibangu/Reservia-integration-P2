@@ -153,6 +153,12 @@ ul {
     flex-direction: row;
 }
 
+.bar {
+    font-weight: 800;
+    font-size: 18px;
+    border: 1px solid #e0e0e0;
+}
+
 .grey-button {
     width: 51px;
     height: 51px;
@@ -558,7 +564,7 @@ A{
 .grid-item {
     width: 100%;
     /* height: 447px; */
-    background-color: red;
+    background-color: white;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -766,7 +772,7 @@ li {
         align-items: center;
         border-left: none;
         border-right: none;
-        border-bottom: 2px solid lightgrey;
+        border-bottom: 3px solid lightgrey;
         transition: none;
      }
 
@@ -780,7 +786,7 @@ li {
         align-items: center;
         border-left: none;
         border-right: none;
-        border-bottom: 2px solid #0065FC;
+        border-bottom: 3px solid #0065FC;
         transition: none;
     }
 
@@ -1002,7 +1008,7 @@ li {
 .grid-item {
     width: 100%;
     /* height: 447px; */
-    background-color: red;
+    background-color: white;
     display: flex;
     border-radius: 20px;
     flex-direction: column;
@@ -1094,6 +1100,17 @@ height: 190px;
 
     /* header */
 
+    .logo {
+        order: 0;
+        margin: 30px 0 0 22px;
+        padding-top: 0;
+    }
+
+    .inscription-btn {
+        margin-right: 20px;
+        font-weight: 300;
+    }
+
     .page-title-smartphone {
         width: 88.53%;
         margin: 0 auto;
@@ -1102,7 +1119,8 @@ height: 190px;
 
     .header {
         height: 149px;
-        margin-left: 0;
+        margin:0;
+    
         }
 
     .nav {
@@ -1129,7 +1147,7 @@ height: 190px;
         align-items: center;
         border-left: none;
         border-right: none;
-        border-bottom: 2px solid lightgrey;
+        border-bottom: 3px solid lightgrey;
         transition: none;
      }
 
@@ -1143,7 +1161,7 @@ height: 190px;
         align-items: center;
         border-left: none;
         border-right: none;
-        border-bottom: 2px solid #0065FC;
+        border-bottom: 3px solid #0065FC;
         transition: none;
     }
 
@@ -1171,12 +1189,7 @@ height: 190px;
         }
 
      
-    .logo {
-        order: 0;
-        padding-top:  30px;
-        margin-bottom: 22px;
-    }
-
+    
 
     .search_city {
         height: fit-content;
@@ -1198,9 +1211,9 @@ height: 190px;
         /* justify-content: center; */
     }
 
-    .maintitle {
+    /* .maintitle {
         margin-top: 35px;
-    }
+    } */
 
     #inscription-btn {
         order: 1;
@@ -1224,7 +1237,7 @@ height: 190px;
         visibility: visible;
         background-color: #0065FC;
         color: white;
-        border-radius: 10px;
+        border-radius: 30%;
         border: none;
     }
 
@@ -1249,6 +1262,14 @@ height: 190px;
         margin-bottom: 0;
     }
 
+    .greytext {
+        margin-top: 16px;
+    }
+
+    .container__text-col {
+        padding-top: 0;
+    }
+
     .filterbtn {
         padding: 0;
         padding-top: 13px;
@@ -1267,7 +1288,9 @@ height: 190px;
 
     /* copy paste */
 
-    
+.populaires { 
+    border-radius: 0;
+}
 
 
 .aside__top {
@@ -1420,7 +1443,7 @@ height: 190px;
 
     .activites {
         width: 89.33%;
-        margin: 0 auto;
+        margin: 57px auto 0 auto;
     }
 
 
@@ -1475,7 +1498,7 @@ height: 190px;
 .grid-item {
     width: 100%;
     /* height: 447px; */
-    background-color: red;
+    background-color: white;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
