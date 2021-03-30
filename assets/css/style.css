@@ -163,6 +163,11 @@ ul {
     border-radius: 10px 0 0 10px;
 }
 
+.fa-map-marker-alt {
+    font-size: 18px;
+}
+
+
 .bar {
     border-left: none;
     border-right: none;
@@ -835,7 +840,7 @@ li {
     
 
     .aside__top {
-        width: 211px;
+        width: 88.53%;
     }
 
     .aside {
@@ -847,7 +852,7 @@ li {
     }
 
     .aside__cards-group {
-        width: 70%;
+        width: 88.53%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -860,10 +865,10 @@ li {
     }
 
 
-    #aside__card-item1, #aside__card-item2, #aside__card-item3 {
+    /* #aside__card-item1, #aside__card-item2, #aside__card-item3 {
         margin: 20px auto;
 
-    }
+    } */
 /* 
     #aside__card-item1 {
         grid-column: 1/2;
@@ -909,8 +914,7 @@ li {
 
 
     .card-img-top {
-        width: 95%;
-        margin: 6px;
+        width: 97.01%;
     }
 
     .container__main {
@@ -1083,11 +1087,22 @@ height: 190px;
         width: fit-content;
     }
 
+    .container {
+        margin: 0;
+
+    }
+
     /* header */
+
+    .page-title-smartphone {
+        width: 88.53%;
+        margin: 0 auto;
+    }
 
 
     .header {
         height: 149px;
+        margin-left: 0;
         }
 
     .nav {
@@ -1167,6 +1182,11 @@ height: 190px;
         height: fit-content;
     }
 
+    .fa-search {
+        font-size: 17px;
+    }
+
+
    
 
     #link-top {
@@ -1243,12 +1263,91 @@ height: 190px;
 
     }
 
-    .card-img-aside {
+
+
+    /* copy paste */
+
+    
+
+
+.aside__top {
+    margin: 43px auto 27px auto;
+}
+
+.aside__title {
+    font-size: 23px;
+}
+    
+
+.aside_cards {
+    display: flex;
+    align-items: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 26px;
+}
+
+.aside__card {
+    background-color: white;
+    width: 100%;
+    height: 23%;
+    border-radius: 8%;
+    margin-bottom: 32px;
+    display:  flex;
+    flex-direction: row;
+    box-shadow: 1px 6px 24px #dadada;
+}
+
+.card-text-aside {
+    padding-top: 10px;
+}
+
+.star-rating {
+    padding-top: 29.17%;
+}
+
+.card-img-aside {
+    width: 37.91%;
+    height: 135px;
+    margin: 5px 0 5px 5px;
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+}
+
+.aside__cards-group{
+    margin: 0 auto;
+    width: 88.53%;
+}
+
+.aside__card-body {
+    width: 180px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: fit-content;
+    display: flex;
+    padding-left: 6.29%;
+    padding-right: 14.67%;
+
+}
+
+#card-img-aside3 {
+    width: 37.91%;
+    min-width: 37.91%;
+    height: 135px;
+}
+
+
+/* ancien code */
+
+    /* .card-img-aside {
       width: 97%;
 
     }
 
 
+  
     .aside__cards-group {
         gap: 11px;
         display: flex;
@@ -1258,22 +1357,25 @@ height: 190px;
     }
 
     .aside__card {
-        width: 102%;
+        width: 100%;
         border-radius: 10px;
     }
+
+    .aside {
+        order: 0;
+        margin:  0;
+        height:  800px;
+    } */
+
 
     .inside {
         width: 100%;
         margin: 0 auto;
     }
-    .aside {
-        order: 0;
-        margin:  0;
-        height:  800px;
-    }
-
+  
     .hebergements {
         background-color: white;
+        margin-top: 42px;
     }
 
     .container__main {
@@ -1284,30 +1386,42 @@ height: 190px;
     
 
     .container__main-title {
-        margin: 0px 0px 23px;
+        margin: 0 0 0 5.6%;
+        font-size: 23px;
+        padding-bottom: 20px;
     }
 
     .inside-inside {
         display: flex;
         flex-direction: column;
         height: 100%;
-        width: 100%;
-        margin: 0;
+        width: 89.87%;
+        margin: 0 auto;
     }
 
     .card {
       width: 100%;
+      height: 200px;
       margin-bottom: 16px;
     }
 
+    .card-body {
+        width: fit-content;
+        padding-left: 5.07%;
+        line-height: 25px;
+    }
+
     .afficher {
-        margin-top: 34px;
-        margin-bottom: 58px;
+        margin: 35px 0 0 0;
     }
 
     /* activités section */
 
 
+    .activites {
+        width: 89.33%;
+        margin: 0 auto;
+    }
 
 
     .activities-section__grid {
