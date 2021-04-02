@@ -230,9 +230,6 @@ ul {
     padding-top: 13px;
 }
 
-.filtres__conteneur:hover {
-    background-color:  #0065FC ;
-}
 
 .container__text-col {
     padding-right: 0px;
@@ -247,13 +244,22 @@ ul {
 .filtres__conteneur {
     border-radius: 30px;
     border: 1px solid rgb(193 190 190);
-    background: white;
+    background-color: white;
     height: 50px;
     font-size: 15px;
     padding: 0px 0px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    transition: ease-in 0.3s;
+    
+}
+
+
+.filtres__conteneur:hover {
+     background-color:#0065FC;
+
+    
 }
 
 .fa-heart, .fa-dog, .fa-money-bill-wave, .fa-child {
