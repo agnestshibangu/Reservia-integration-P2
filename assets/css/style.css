@@ -518,6 +518,7 @@ margin: 49px auto 26px auto;
     flex-direction: column;
     justify-content: flex-end;
     height: fit-content;
+    height: -moz-fit-content;
     display: flex;
     padding-left: 16px;
 }
@@ -831,6 +832,8 @@ li {
         margin-top: 85px;
         margin-left: 0;
         height: fit-content;
+        height: -moz-fit-content;
+
     }
 
     .populaires {
@@ -838,6 +841,7 @@ li {
         width: auto;
         margin-left: 0;
         height: fit-content;
+        height: -moz-fit-content;
     }
 
    
