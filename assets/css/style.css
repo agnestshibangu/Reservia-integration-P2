@@ -424,6 +424,10 @@ ul {
 
 /* populaire */
 
+.picture-aside {
+    width: 50%;
+}
+
 .populaires {
     margin-left: 40px;
     width: 31%;
@@ -446,6 +450,7 @@ ul {
     height: 135px;
     margin: 5px;
     border-radius: 10px 0 0 10px;
+    object-fit: cover;
 }
 
 .aside__top{
@@ -927,6 +932,7 @@ li {
         height: 50%;
         border-radius: 10px 10px 0 0;
         margin: 7px auto;
+        
     }
 
     
