@@ -196,6 +196,9 @@ ul {
     color: white;
     border: none;
     font-size: 15px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 }
 
 .nav__btn_phone {
@@ -498,7 +501,7 @@ margin: 49px auto 26px auto;
 }
 
 .star-rating {
-    padding-top: 30px;
+    padding-top: 8%;
 
 }
 
@@ -712,7 +715,11 @@ li {
     }
 
     .star-rating {
-        padding-top: 10px;
+        padding-top: 8%;
+    }
+
+    .star-rating2 {
+        padding-top: 0;
     }
     
     .aside__card-body {
@@ -720,6 +727,10 @@ li {
         padding-left: 8px;
         padding-right: 8px;
 
+    }
+
+    .card-title {
+        font-size: 0.9em;
     }
 
     .card-body {
@@ -1263,13 +1274,18 @@ height: 190px;
     }
 
     .nav__btn_phone {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
         height: 52px;
         width: 52px;
         visibility: visible;
         background-color: #0065FC;
-        color: white;
+        color: rgb(230, 197, 197);
         border-radius: 30%;
         border: none;
+       
+       
     }
 
     .container__filtres-col {
