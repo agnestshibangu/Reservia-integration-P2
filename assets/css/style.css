@@ -428,8 +428,10 @@ ul {
 
 /* populaire */
 
-.picture-aside {
-    width: 50%;
+.aside__picture {
+    width: 40%;
+    margin: 5px;
+    height: 135px;
 }
 
 .populaires {
@@ -452,8 +454,7 @@ ul {
 
 .card-img-aside {
     width: 100%;
-    height: 135px;
-    margin: 5px;
+    height: 100%;
     border-radius: 10px 0 0 10px;
     object-fit: cover;
 }
@@ -549,39 +550,41 @@ margin: 49px auto 26px auto;
     grid-row-gap: 2rem;
 }
 
-A{
+.A { 
     grid-column: 1/2;
     grid-row: 1/11;
+   
 }
-
 
 
 .B{
     grid-column: 2/3;
-    grid-row: 1/11;
+    grid-row: 1/6;
 }
 
 
 .C{
-    grid-area: 1/2;
-    grid-row: 6/11;
-    
+    grid-column: 2/3;
+    grid-row: 6/11; 
 }
 
-
-.D{
+.D {
     grid-column: 3/4;
-}
+    grid-row: 1/11;
+} 
+
 
 
 .E{
     grid-column: 4/5;
+    grid-row: 1/5;
 }
 
 
 .F{
     grid-column: 4/5;
     grid-row: 5/11;
+}
    
 }
 
@@ -880,7 +883,13 @@ li {
     padding-top: 5px;
     }
 
+    /* populaire */
     
+
+    .aside__picture {
+        width: 98%;
+        height: 60%;
+    }
 
     .aside__top {
         width: 78%;
@@ -935,17 +944,17 @@ li {
     }
 
     .card-img-aside {
-        width: 98%;
-        height: 50%;
+        width: 100%;
+        height: 95%;
         border-radius: 10px 10px 0 0;
-        margin: 7px auto;
+        
         
     }
 
     
     #card-img-aside3 {
         width: 98%;
-        height: 50%;
+        height: 95%;
     }
 
     .aside__card {
@@ -1335,6 +1344,11 @@ height: 190px;
     border-radius: 0;
 }
 
+.aside__picture {
+    width: 60%;
+    height: 135px;
+    
+}
 
 .aside__top {
     margin: 43px auto 27px auto;
@@ -1373,9 +1387,8 @@ height: 190px;
 }
 
 .card-img-aside {
-    width: 37.91%;
-    height: 135px;
-    margin: 5px 0 5px 5px;
+    width: 100%;
+    height: 100%;
     border-radius: 10px 0 0 10px;
     object-fit: cover;
 }
@@ -1399,8 +1412,8 @@ height: 190px;
 }
 
 #card-img-aside3 {
-    width: 37.91%;
-    min-width: 37.91%;
+    width: 100%;
+    min-width: 100%;
     height: 135px;
 }
 
@@ -1632,23 +1645,17 @@ height: 134px;
 
 
 @media (max-width: 400px) {
-
     .star-rating {
         padding-top: 10.17%;
     }
-
-
 }
 
 
 
 @media (max-width: 370px) {
-
     .star-rating {
         padding-top: 2%;
     }
-
-
 }
 
 
