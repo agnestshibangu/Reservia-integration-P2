@@ -565,8 +565,7 @@ margin: 49px auto 26px auto;
 
 .A { 
     grid-column: 1/2;
-    grid-row: 1/11;
-   
+    grid-row: 1/11; 
 }
 
 
@@ -599,7 +598,6 @@ margin: 49px auto 26px auto;
     grid-row: 5/11;
 }
    
-}
 
 
 .grid-item {
@@ -609,7 +607,9 @@ margin: 49px auto 26px auto;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    box-shadow: 1px 6px 24px #dadada;
+    box-shadow: 1px 6px 24px lightgrey;
+    border-radius: 20px;
+ 
     
 }
 
@@ -1029,41 +1029,41 @@ li {
 
 .A{
     grid-column: unset;
-    grid-row: unset;
-    
+    grid-row: unset; 
 }
 
 
 .B{
     grid-column: unset;
-    grid-row: unset;
-    
+    grid-row: unset;  
 }
 
 
 .C{
     grid-column: unset;
     grid-row: unset;
-    margin-top: unset;
-    
+    margin-top: unset;   
 }
 
 
 .D{
     grid-column: unset;
     grid-row: unset;
+    
 }
 
 
 .E{
     grid-column: unset;
     grid-row: unset;
+  
 }
 
 
 .F{
     grid-column: unset;
-    grid-row: unset;    
+    grid-row: unset; 
+    
 } 
 
 
@@ -1074,8 +1074,8 @@ li {
     display: flex;
     border-radius: 20px;
     flex-direction: column;
-    box-shadow: 0px 4px 31px lightgrey;
-    
+
+  
 }
 
  .card-activite-title {
@@ -1482,7 +1482,7 @@ height: 190px;
     .card-body {
         width: fit-content;
         padding-left: 5.07%;
-        line-height: 25px;
+        line-height: 20px;
     }
 
     .afficher {
